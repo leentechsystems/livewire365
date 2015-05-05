@@ -19,6 +19,7 @@ body, html {
 }
 .cloud_container {
     position: relative;
+    style:#FFFFFF;
 }
 .cloud_container img {
     /*    left: 0;*/

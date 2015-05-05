@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.photobook" version="1" versionCode = "1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>photobook</name>
+    <name>LNS Support</name>
     <description>
-        Photobook official mobile application
+        Leentech Systems Support official mobile application
     </description>
-    <author email="admin@photobook.com" href="http://photobook.com/">
-        admin@photobook.com
+    <author email="admin@leentechsystems.com" href="http://leentechsystems.com/support/login/">
+        admin@leentechsystems.com
     </author>
 
     <content src="index.html" />
 
     <!-- Android  -->
-    <icon src="res/icons/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
-	<icon src="res/icons/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
+    <icon src="res/icons/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
 	<icon src="res/icons/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />
 	<icon src="res/icons/android/icon-96-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
 	<icon src="res/icons/android/icon-144-xxhdpi.png" gap:platform="android" gap:density="xxhdpi" />
