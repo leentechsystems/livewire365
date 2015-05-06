@@ -7,9 +7,6 @@
     <author email="admin@leentechsystems.com" href="http://leentechsystems.com/support/login/">
         admin@leentechsystems.com
     </author>
-
-    <content src="index.html" />
-
     <!-- Android  -->
     <icon src="res/icons/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
 	<icon src="res/icons/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />
