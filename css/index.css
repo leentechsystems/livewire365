@@ -238,10 +238,10 @@ h1 {
 }
 @-moz-keyframes fadeG {
     0% {
-        background-color: #000000
+        background-color: #262626
     }
     100% {
-        background-color: #FFFFFF
+        background-color: #262626
     }
 }
 @-webkit-keyframes fadeG {

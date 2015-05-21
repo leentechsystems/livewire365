@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.photobook" version="1" versionCode = "1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>LNS Support</name>
+    <name>LiveWire365 Support</name>
     <description>
-        Leentech Systems Support official mobile application
+        LiveWire365 Support official mobile application
     </description>
-    <author email="admin@leentechsystems.com" href="http://leentechsystems.com/support/login/">
-        admin@leentechsystems.com
+    <author email="admin@livewire365.com" href="http://livewire365.com/support/login/">
+        admin@livewire365.com
     </author>
     <!-- Android  -->
     <icon src="res/icons/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
