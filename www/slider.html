@@ -31,7 +31,7 @@
                     <p>The leading and trend setting tabloid in the newspaper industry, ran by highly and technologically </p>
                     <button type="button" class="swiper-next">Continue</button>
                     <div class="swiper-skip">
-                        <a href="" class="get-started">Skip</a> &gt;
+                        <a href="" class="">Skip</a> &gt;
                     </div>
                 </div>
             </div>
@@ -42,7 +42,7 @@
                     <p>The leading and trend setting tabloid in the newspaper industry, ran by highly and technologically </p>
                     <button type="button" class="swiper-next">Continue</button>
                     <div class="swiper-skip">
-                        <a href="" class="get-started">Skip</a> &gt;
+                        <a href="" class="">Skip</a> &gt;
                     </div>
                 </div>
             </div>
@@ -51,7 +51,7 @@
                     <p><img src="assets/mobile/images/mobile-1.png"></p>
                     <h1>News for Filipinos</h1>
                     <p>The leading and trend setting tabloid in the newspaper industry, ran by highly and technologically </p>
-                    <button type="button" class="swiper-next get-started">Get Started</button>
+                    <button type="button" class="swiper-next">Get Started</button>
                 </div>
             </div>
         </div>
@@ -68,9 +68,6 @@
 
     <!-- Initialize Swiper -->
     <script>
-    $(."get-started").click(function(){
-        window.location = "http://abante.com.ph/mobile#/";
-    });
     var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
         paginationClickable: true,
@@ -79,6 +76,12 @@
     </script>
 
     <!-- Cookie -->
-
+    <script src="assets/mobile/js/jquery.cookie.js"></script>
+    <script>
+        if($.cookie('initialize') == 'done')
+            //window.location = "http://abante.com.ph/mobile#/";
+        else
+            $.cookie('initialize', 'done');
+    </script>
 </body>
 </html>
