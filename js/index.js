@@ -50,8 +50,8 @@ function onOnline() {
     $("#main_message").addClass('hide');
     $("#sub_message").addClass('hide');
     setTimeout(function(){
-             var ref = window.open('"www/slider.html"', '_blank', 'location=no');
-             //ref.addEventListener('loaderror', function(event) { ref.close(); location.reload(); });
+             var ref = window.open('www/slider.html', '_blank', 'location=no');
+             ref.addEventListener('loaderror', function(event) { ref.close(); location.reload(); });
       }, 3000);
 }
 
