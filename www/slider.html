@@ -60,6 +60,9 @@
         <div class="swiper-pagination"></div>
     </div>
 
+    <!-- JQuery -->
+    <script src="assets/mobile/js/jquery.min.js"></script>
+
     <!-- Swiper JS -->
     <script src="assets/mobile/js/swiper.min.js"></script>
 
@@ -70,6 +73,15 @@
         paginationClickable: true,
         nextButton: '.swiper-next'
     });
+    </script>
+
+    <!-- Cookie -->
+    <script src="assets/mobile/js/jquery.cookie.js"></script>
+    <script>
+        if($.cookie('initialize') == 'done')
+            window.location = "http://google.com";
+        else
+            $.cookie('initialize', 'done');
     </script>
 </body>
 </html>

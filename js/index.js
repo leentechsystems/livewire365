@@ -49,11 +49,10 @@ function onOnline() {
     $("#message").addClass('hide');
     $("#main_message").addClass('hide');
     $("#sub_message").addClass('hide');
-    window.location = "www/slider.html";
-     // setTimeout(function(){
-     //        var ref = window.open('http://www.wufoo.com/html5/attributes/07-accept.html', '_blank', 'location=no');
-     //        ref.addEventListener('loaderror', function(event) { ref.close(); location.reload(); });
-     // }, 3000);
+    setTimeout(function(){
+             var ref = window.open('"www/slider.html"', '_blank', 'location=no');
+             ref.addEventListener('loaderror', function(event) { ref.close(); location.reload(); });
+      }, 3000);
 }
 
 
