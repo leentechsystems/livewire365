@@ -1,0 +1,81 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+    background: #942317;
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 16px;
+    background: #f3402c;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+.swiper-content {
+	padding: 30px 35px;
+	margin-top: -70px;
+}
+.swiper-container-horizontal>.swiper-pagination {
+	bottom: 32px;
+}
+.swiper-pagination-bullet-active {
+	background: #b21200;
+}
+.swiper-pagination-bullet {
+	width: 12px;
+	height: 12px;
+}
+.swiper-content h1 {
+	font-size: 28px;
+	font-weight: 400;
+	width: 100%;
+	display: block;
+	float: left;
+}
+.swiper-content p {
+	line-height: 24px;
+	font-size: 16px;
+}
+.swiper-content button {
+	background: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 10px 40px;
+	font-size: 18px;
+	border-radius: 3px;
+	font-weight: 400;
+	margin-top: 32px;
+}
+.swiper-content .swiper-skip {
+	margin-top: 15px;
+	display: block;
+	color: #b21200;
+	font-size: 14px;
+	line-height: 20px;
+}
+.swiper-content .swiper-skip a {
+	color: #b21200;
+}

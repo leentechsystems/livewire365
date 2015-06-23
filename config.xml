@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.photobook" version="1" versionCode = "1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>LiveWire365 Support</name>
+<widget id="com.abante" version="1" versionCode = "1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Abante Online</name>
     <description>
-        LiveWire365 Support official mobile application
+        Abante official mobile application
     </description>
-    <author email="admin@livewire365.com" href="http://livewire365.com/support/login/">
-        admin@livewire365.com
+    <author email="admin@abante.com" href="http://abante.com.ph/support">
+        admin@abante.com
     </author>
     <!-- Android  -->
     <icon src="res/icons/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
